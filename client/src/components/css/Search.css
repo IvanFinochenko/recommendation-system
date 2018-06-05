@@ -1,0 +1,30 @@
+.search {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	margin-left: 30vw;
+}
+
+.search__genre {
+	flex: 1;
+	max-width: 10vw;
+	z-index: 1000;
+}
+
+.search__type {
+	flex: 1;
+	max-width: 10vw;
+	margin-right: 1vw;
+	margin-left: 1vw;
+	z-index: 1000;
+}
+
+.search__text {
+	flex: 1;
+	max-width: 15vw;
+	margin-right: 1vw;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: #BBB;
+	border-style: solid;
+}

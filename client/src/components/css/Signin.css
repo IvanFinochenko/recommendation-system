@@ -1,0 +1,16 @@
+@media all and (min-width: 480px) {
+  .Signin {
+    padding: 160px 0;
+  }
+
+  .Signin {
+    margin: 0 auto;
+    max-width: 420px;
+  }
+
+  .error_message {
+  	color: #A00;
+  	margin-bottom: 1vw;
+  	margin-left: 4vw;
+  }
+}

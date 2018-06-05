@@ -1,0 +1,16 @@
+@media all and (min-width: 480px) {
+  .Signup {
+    padding: 160px 0;
+  }
+
+  .Signup {
+    margin: 0 auto;
+    max-width: 420px;
+  }
+
+  .error_message_signup {
+  	color: #A00;
+  	margin-bottom: 1vw;
+  	margin-left: 6vw;
+  }
+}

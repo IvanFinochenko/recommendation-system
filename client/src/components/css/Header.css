@@ -1,0 +1,14 @@
+.logout {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+}
+
+.logout__username {
+	margin-top: 0.75vw;
+	flex: 1;
+}
+
+.logout__button {
+	flex: 1;
+}

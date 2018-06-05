@@ -1,0 +1,44 @@
+.movie {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	margin: 30px;
+	height: 450px;
+	max-width: 40vw
+}
+
+.movie__info {
+	flex: 1;
+	padding: 15px;
+}
+
+.movie__image {
+	flex: 0.2;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+	margin: 15px;
+	max-width: 16vw;
+	min-width: 16vw;
+}
+
+.movies__header {
+	margin: 30px;
+}
+
+.delete_movie {
+	flex: 0.1;
+	max-height: 2vw;
+	max-width: 2vw;
+}
+
+.title {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+}
+
+.title__movie {
+	flex: 1;
+}

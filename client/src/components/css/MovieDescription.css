@@ -1,0 +1,21 @@
+.description {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	margin-left: 15vw;
+	margin-top: 5vw;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	max-width: 65vw;
+}
+
+.description__image {
+	flex: 1;
+	max-width: 30vw;
+	height: 40vw;
+}
+
+.description__info {
+	flex: 1;
+	margin-left: 5vw;
+	max-width: 30vw;
+}
